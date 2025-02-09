@@ -56,7 +56,7 @@
           <div class="hero__content">
             <h1 class="hero__title">Alexandre Foulc</h1>
             <p class="hero__subtitle">Développeur PHP | WordPress</p>
-            <p class="hero__description">Passionné et créatif, j'aime développer des applications web évolutives et performantes.</p>
+            <p class="hero__description">Passionné et créatif, je développe des sites et des applications web évolutives et performantes.</p>
           </div>
         </div>
         <div class="block__btn">
@@ -72,13 +72,16 @@
             </svg>Github
           </a>
 
+          <a target="_blank" class="info__btn disabled" role="link" aria-disabled="true" title="CV disponible sur demande">
+            <svg width="18" height="18" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd">
+              <path d="M22 0h-20v24h14l6-6v-18zm-6 18h4.36l-4.36 4.385v-4.385zm-3 1h-8v1h8v-1zm0-3h-8v1h8v-1zm6-2v-1h-14v1h14zm-7.059-4.968c-1.147-.265-2.214-.497-1.697-1.473 1.573-2.97.417-4.559-1.244-4.559-1.694 0-2.821 1.65-1.244 4.559.532.982-.575 1.214-1.697 1.473-1.024.237-1.062.745-1.059 1.635l.001.333h7.997l.001-.323c.004-.896-.03-1.407-1.058-1.645zm7.059.968h-4v1h4v-1zm0-2v-1h-4v1h4zm0-4h-4v1h4v-1z" />
+            </svg>Mon CV
+          </a>
+
           <a type="button" class="info__btn" href="mailto:contact@alexcreationweb.fr?Subject=Contact depuis AlexCréationWeb.fr" target="_blank" title="M'envoyer un mail">
             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16">
               <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm3.436-.586L16 11.801V4.697z" />
             </svg>contact@alexcreationweb.fr
-          </a>
-
-          <a target="_blank" class="info__btn disabled" role="link" aria-disabled="true" title="CV disponible sur demande">Mon CV
           </a>
 
         </div>
@@ -136,7 +139,6 @@
         <!-- skills Back-End -->
       </div>
     </section>
-    <hr>
 
     <section class="section-l" id="projects">
       <h2 class="section__title">Réalisations</h2>
@@ -230,20 +232,18 @@
 
       </div>
     </section>
-    <hr>
 
     <section class="section-l" id="about">
       <h2 class="section__title">Qui suis-je ?</h2>
       <div class="section__content">
         <p class="presentation__text">
-          J'ai d'abord découvert l'Informatique dans les années 80 avec un Thomson TO7 avant de créer un premier site Web au début des années 2000 avec le célèbre logiciel DreamWeaver. </br>Plus tard, avec la nécessité d'être présent sur Internet pour développer <span class="text--underline">
+          J'ai découvert l'Informatique dans les années 80 avec un Thomson TO7 avant de créer un premier site Web au début des années 2000 avec le célèbre logiciel DreamWeaver. </br>Plus tard, avec la nécessité d'être présent sur Internet pour développer <span class="text--underline">
             <a href="https://sportsnatureevasion.com" target="_blank">mon activité de Moniteur sportif</a>
-          </span>, je me suis de nouveau intéressé aux nouvelles technologies du Web.</br>J'ai alors ressenti l'envie de me former pour mieux comprendre et ainsi acquérir de nouvelles compétences.
+          </span>, je me suis intéressé aux nouvelles technologies du Web.</br>J'ai alors ressenti l'envie de me former pour mieux comprendre et ainsi acquérir de nouvelles compétences.
         </p>
         <p class="presentation__text">Curieux et rigoureux, je me suis découvert un réel intérêt pour la programmation et le webdesign. Aujourd'hui, je continue à évoluer au gré des challenges.</p>
       </div>
     </section>
-    <hr>
 
     <section class="section-l" id="path">
       <h2 class="section__title">Parcours / Expériences</h2>

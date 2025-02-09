@@ -15,6 +15,7 @@
 /*  LAYOUT GENERAL */
 
 body {
+  overflow-x: hidden;
   position: relative;
   font-size: 1rem;
   font-family:
@@ -40,29 +41,46 @@ body {
 }
 
 .section-l {
-  padding: 40px 40px;
+  max-width: 100%;
+  padding: 100px 15px 0;
 }
 
 .section__title {
-  position: absolute;
   transform: rotate(-0.01turn);
-  display: inline-block;
-  padding: 5px 20px;
+  display: block;
+  width: max-content;
+  padding: 0.4rem 0.8rem;
   font-family: monospace;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   font-weight: lighter;
   color: var(--text-white);
   background: var(--theme-color);
+  border-radius: 10px;
+  box-shadow: 0 4px 21px -12px rgba(0, 0, 0, 0.66);
 }
 
 .section__content {
+  max-width: 100%;
   position: relative;
-  margin-top: 60px;
-  padding: 60px 10px 40px;
+  margin-top: 80px;
+  padding-bottom: 60px;
 }
 
-hr {
-  border: 0;
-  border-top: 1px solid rgba(0, 0, 0, 0.05);
+/**********************************************/
+/*************  RESPONSIVE  
+***********************************************/
+
+/*  LAYOUT < 1024px  */
+
+/*  LAYOUT < 576px  */
+@media (max-width: 576px) {
+  .main-l {
+    padding-top: 40px;
+  }
+  .section__title {
+    font-size: 1.3rem;
+  }
+  .section__content {
+    margin-top: 60px;
+  }
 }
-/*  LAYOUT  */

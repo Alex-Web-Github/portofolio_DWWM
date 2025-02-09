@@ -9,13 +9,8 @@ footer {
   align-items: center;
   padding: 20px 0;
   .footer__text {
+    font-family: monospace;
     font-size: 0.8rem;
     color: var(--text-white-secondary);
-  }
-}
-
-// Responsive
-@media (max-width: 576px) {
-  .footer-l {
   }
 }
