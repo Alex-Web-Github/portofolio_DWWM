@@ -143,93 +143,13 @@
     <section class="section-l" id="projects">
       <h2 class="section__title">Réalisations</h2>
       <div class="section__content section__project">
-        <div class="project">
-          <div class="project__cover" style="background-image: url(img/thumbnail-CDS25-mini.webp); "></div>
-          <div class="project__content">
-            <span class="project__badge">WordPress</span>
-            <p class="project__title">C.D.S. 25</p>
-            <p class="project__description">Le site web du Comité Départemental de Spéléologie du Doubs</p>
-            <div class="project__footer"><a href="https://www.speleo-doubs.com/" target="_blank">Voir le projet</a>
-            </div>
-          </div>
-        </div>
-
-        <div class="project">
-          <div class="project__cover" style="background-image: url(img/thumbnail-dgsoudure-mini-1.webp); ">
-          </div>
-          <div class="project__content">
-            <span class="project__badge">WordPress</span>
-            <p class="project__title">DG Soudure Création</p>
-            <p class="project__description">Le site web d'un artisan métallier-soudeur près Besançon</p>
-            <div class="project__footer"><a href="https://dgsoudure.fr" target="_blank">Voir le projet</a>
-            </div>
-          </div>
-        </div>
-
-        <div class="project">
-          <div class="project__cover" style="background-image: url(img/thumbnail-quaiantique-mini.webp); ">
-          </div>
-          <div class="project__content">
-            <span class="project__badge">PHP-MySQL</span>
-            <p class="project__title">Quai Antique</p>
-            <p class="project__description">Le site web d'un restaurant avec Back-Office et Réservation en ligne </p>
-            <div class="project__footer"><a href="http://sc4foal9574.universe.wf/quai_antique/" target="_blank">Voir le
-                projet</a>
-            </div>
-          </div>
-        </div>
-        <div class="project">
-          <div class="project__cover" style="background-image: url(img/thumbnail-charles-cantin-mini.webp); ">
-          </div>
-          <div class="project__content">
-            <span class="project__badge">WordPress</span>
-            <p class="project__title">Charles Cantin</p>
-            <p class="project__description">Le site web d'un photographe Freelance / Thème WP sur-mesure</p>
-            <div class="project__footer"><a href="http://sc4foal9574.universe.wf/charles-cantin/" target="_blank">Voir
-                le projet</a>
-            </div>
-          </div>
-        </div>
-
-        <div class="project">
-          <div class="project__cover" style="background-image: url(img/thumbnail-rolldice-mini.webp); ">
-          </div>
-          <div class="project__content">
-            <span class="project__badge">HTML / CSS / JS</span>
-            <p class="project__title">Roll Dice</p>
-            <p class="project__description">Un jeu de dé pour jouer dans votre navigateur</p>
-            <div class="project__footer"><a href="https://alex-web-github.github.io/Jeu-RollDice-JS/" target="_blank">Voir
-                le projet</a>
-            </div>
-          </div>
-        </div>
-
-        <div class="project">
-          <div class="project__cover" style="background-image: url(img/thumbnail-sportsnatureevasion-mini.webp); ">
-          </div>
-          <div class="project__content">
-            <span class="project__badge">WordPress</span>
-            <p class="project__title">SportsNatureÉvasion</p>
-            <p class="project__description">Le site web de mon activité de Guide / Éducateur sportif</p>
-            <div class="project__footer"><a href="https://www.sportsnatureevasion.com" target="_blank">Voir
-                le projet</a>
-            </div>
-          </div>
-        </div>
-
-        <div class="project">
-          <div class="project__cover" style="background-image: url(img/thumbnail-clipboard-mini.webp); ">
-          </div>
-          <div class="project__content">
-            <span class="project__badge">Webdesign</span>
-            <p class="project__title">ClipBoard</p>
-            <p class="project__description">Maquette sous Figma d'une application web fictive (desktop/mobile)</p>
-            <div class="project__footer"><a href="/img/Clipboard-Design_compressed.pdf" target="_blank">Voir
-                le projet</a>
-            </div>
-          </div>
-        </div>
-
+        <?php
+        // Récupération des projets depuis le fichier JSON pui bouclage/affichage des projets
+        $projectsJson = file_get_contents('contenu/my-projects.json');
+        $projects = json_decode($projectsJson, true); ?>
+        <?php foreach ($projects as $project): ?>
+          <?php include 'templates/_project-card.php'; ?>
+        <?php endforeach; ?>
       </div>
     </section>
 
@@ -237,11 +157,14 @@
       <h2 class="section__title">Qui suis-je ?</h2>
       <div class="section__content">
         <p class="presentation__text">
-          J'ai découvert l'Informatique dans les années 80 avec un Thomson TO7 avant de créer un premier site Web au début des années 2000 avec le célèbre logiciel DreamWeaver. </br>Plus tard, avec la nécessité d'être présent sur Internet pour développer <span class="text--underline">
-            <a href="https://sportsnatureevasion.com" target="_blank">mon activité de Moniteur sportif</a>
-          </span>, je me suis intéressé aux nouvelles technologies du Web.</br>J'ai alors ressenti l'envie de me former pour mieux comprendre et ainsi acquérir de nouvelles compétences.
-        </p>
-        <p class="presentation__text">Curieux et rigoureux, je me suis découvert un réel intérêt pour la programmation et le webdesign. Aujourd'hui, je continue à évoluer au gré des challenges.</p>
+          Tout a commencé dans les années 80, lorsque j’ai posé mes mains sur un Thomson TO7. Une révélation. De ces premiers instants passés à explorer l’informatique est née une curiosité insatiable. Au début des années 2000, armé de DreamWeaver, j’ai construit ma première page web, sans me douter que cette expérience poserait les bases d’une nouvelle aventure.</p>
+        <p class="presentation__text">
+          Les années ont passé, et mon chemin m’a mené vers une autre passion : le sport (<span class="text--underline"><a href="https://sportsnatureevasion.com" target="_blank">découvrir mes activités&nbsp<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-box-arrow-up-right" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5" />
+                <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0z" />
+              </svg>
+              )</a></span>. Mais très vite, un constat s’est imposé : être visible en ligne devenait essentiel. Ce besoin a ravivé une flamme, un défi à relever. Comprendre, apprendre, créer. Aujourd’hui, je continue d’évoluer, de me former, de me réinventer au gré des challenges.</p>
+        <p class="presentation__text">Curieux et rigoureux, je me suis façonné à travers les défis. Aujourd’hui, chaque projet est une nouvelle exploration, un challenge à relever. Mon ambition ? Concevoir des expériences web modernes, performantes et uniques.</p>
       </div>
     </section>
 
