@@ -1,65 +1,65 @@
 [
   {
-    "badge": "WordPress",
+    "tag": ["WordPress"],
     "title": "C.D.S. 25",
-    "subtitle": "Le site web du Comité Départemental de Spéléologie du Doubs",
+    "subtitle": "Comité Départemental de Spéléologie du Doubs",
     "cover": "img/thumbnail-CDS25-mini.webp",
     "link": "https://www.speleo-doubs.com/",
-    "description": "",
+    "description": "ceci est la description de mon projet web ...",
     "link-github": ""
   },
   {
-    "badge": "WordPress",
+    "tag": ["WordPress"],
     "title": "DG Soudure Création",
-    "subtitle": "Le site web d'un artisan métallier-soudeur près Besançon",
+    "subtitle": "Artisan métallier-soudeur près Besançon",
     "cover": "img/thumbnail-dgsoudure-mini-1.webp",
     "link": "https://dgsoudure.fr",
-    "description": "",
+    "description": "ceci est la description de mon projet web ...",
     "link-github": ""
   },
   {
-    "badge": "PHP-MySQL",
-    "title": "Quai Antique",
-    "subtitle": "Le site web d'un restaurant avec Back-Office et Réservation en ligne",
+    "tag": ["PHP-MySQL"],
+    "title": "Restaurant Quai Antique",
+    "subtitle": "Site avec Back-Office et Réservation en ligne",
     "cover": "img/thumbnail-quaiantique-mini.webp",
     "link": "http://sc4foal9574.universe.wf/quai_antique/",
-    "description": "",
-    "link-github": ""
+    "description": "ceci est la description de mon projet web ...",
+    "link-github": "https://github.com/Alex-Web-Github/Restaurant_QuaiAntique"
   },
   {
-    "badge": "WordPress",
+    "tag": ["WordPress"],
     "title": "Charles Cantin",
-    "subtitle": "Le site web d'un photographe Freelance / Thème WP sur-mesure",
+    "subtitle": "Photographe Freelance / Thème WP sur-mesure",
     "cover": "img/thumbnail-charles-cantin-mini.webp",
     "link": "http://sc4foal9574.universe.wf/charles-cantin/",
-    "description": "",
-    "link-github": ""
+    "description": "ceci est la description de mon projet web ...",
+    "link-github": "https://github.com/Alex-Web-Github/portofolio_charles-cantin"
   },
   {
-    "badge": "HTML / CSS / JS",
+    "tag": ["HTML / CSS / JS"],
     "title": "Roll Dice",
     "subtitle": "Un jeu de dé pour jouer dans votre navigateur",
     "cover": "img/thumbnail-rolldice-mini.webp",
     "link": "https://alex-web-github.github.io/Jeu-RollDice-JS/",
-    "description": "",
-    "link-github": ""
+    "description": "ceci est la description de mon projet web ...",
+    "link-github": "https://github.com/Alex-Web-Github/Jeu-RollDice-JS"
   },
   {
-    "badge": "WordPress",
+    "tag": ["WordPress"],
     "title": "SportsNatureÉvasion",
-    "subtitle": "Le site web de mon activité de Guide / Éducateur sportif",
+    "subtitle": "Site web de mon activité de Guide / Éducateur sportif",
     "cover": "img/thumbnail-sportsnatureevasion-mini.webp",
     "link": "https://www.sportsnatureevasion.com",
-    "description": "",
+    "description": "ceci est la description de mon projet web ...",
     "link-github": ""
   },
   {
-    "badge": "Webdesign",
+    "tag": ["Webdesign"],
     "title": "ClipBoard",
     "subtitle": "Maquette sous Figma d'une application web fictive (desktop/mobile)",
     "cover": "img/thumbnail-clipboard-mini.webp",
     "link": "/img/Clipboard-Design_compressed.pdf",
-    "description": "",
+    "description": "ceci est la description de mon projet web ...",
     "link-github": ""
   }
 ]

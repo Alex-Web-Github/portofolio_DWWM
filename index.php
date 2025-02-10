@@ -204,7 +204,7 @@
     </div>
   </footer>
 
-  <!-- <script src="/js/global.js"></script> -->
+  <script src="/js/global.js"></script>
 
 </body>
 

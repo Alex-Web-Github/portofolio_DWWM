@@ -101,7 +101,7 @@ select {
   --text-color-body: #121a2b;
   --text-black: #060c18;
   --text-white: #fff;
-  --text-white-secondary: #d0d0d0;
+  --text-white-secondary: #f7f7f7;
   --badge-bg-color: #bf7602;
 }
 
@@ -287,7 +287,6 @@ header {
   justify-content: center;
   align-items: center;
   gap: 0.5rem;
-  cursor: pointer;
   padding: 0.4rem 0.8rem;
   background-color: var(--accent-color);
   color: var(--text-color-body);
@@ -297,11 +296,8 @@ header {
   transition: 300ms ease-in-out 0ms;
 }
 .hero .block__btn .info__btn.disabled {
-  color: rgba(18, 26, 43, 0.3058823529);
+  opacity: 0.5;
   cursor: not-allowed;
-}
-.hero .block__btn .info__btn.disabled svg {
-  fill: rgba(18, 26, 43, 0.3058823529);
 }
 .hero .block__btn .info__btn:hover, .hero .block__btn .info__btn:focus {
   background-color: var(--theme-color);
@@ -473,7 +469,7 @@ header {
 }
 .section__project .project .project__cover {
   width: 100%;
-  height: 105px;
+  height: 130px;
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -481,65 +477,91 @@ header {
 }
 .section__project .project .project__content {
   position: relative;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 1.5rem;
   padding: 20px;
   background: white;
-  min-height: 160px;
+  min-height: 180px;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
   box-sizing: border-box;
-  padding-bottom: 40px;
 }
-.section__project .project .project__content .project__title {
+.section__project .project .project__content .project__tags {
+  position: absolute;
+  display: flex;
+  gap: 0.5rem;
+  top: -10px;
+  left: 20px;
+}
+.section__project .project .project__content .project__tags .tag {
+  background: var(--theme-color);
+  border-radius: 5px;
+  color: white;
+  font-size: 13px;
+  height: 20px;
+  padding: 0px 20px;
+  line-height: 20px;
+}
+.section__project .project .project__content .project__header .title {
   margin: 0;
   margin-bottom: 5px;
   color: var(--theme-color);
   font-weight: bold;
   font-size: 16px;
 }
-.section__project .project .project__content .project__subtitle {
+.section__project .project .project__content .project__header .subtitle {
   margin: 0;
   margin-bottom: 5px;
   font-size: 14px;
   color: rgba(0, 0, 0, 0.7);
 }
-.section__project .project .project__content .project__badge {
-  position: absolute;
-  background: var(--theme-color);
-  border-radius: 5px;
-  color: white;
-  top: -10px;
-  left: 20px;
-  font-size: 13px;
-  height: 20px;
-  padding: 0px 20px;
-  line-height: 20px;
-}
 .section__project .project .project__content .project__footer {
-  position: absolute;
-  text-align: right;
-  bottom: 10px;
-  right: 10px;
+  display: flex;
+  justify-content: space-between;
+  gap: 0.5rem;
 }
-.section__project .project .project__content .project__footer a {
-  display: inline-block;
-  background: #3498db;
-  background: var(--theme-color);
-  background: var(--accent-color);
-  color: white;
+.section__project .project .project__content .project__footer .project__link {
+  justify-self: self-end;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 5px 10px;
+  background-color: var(--accent-color);
   color: var(--text-color-body);
-  font-size: 12px;
   border-radius: 5px;
   text-decoration: none;
-  padding: 5px 10px;
-  font-weight: bold;
+  transition: 300ms ease-in-out 0ms;
 }
-.section__project .project .project__content .project__footer a:hover {
+.section__project .project .project__content .project__footer .project__link:hover, .section__project .project .project__content .project__footer .project__link:focus {
   transition: background-color 0.2s ease-in-out;
-  background-color: var(--accent-color-lighter);
+  background-color: var(--theme-color);
+  color: var(--accent-color);
+}
+.section__project .project .project__content .project__footer .project__link.btn-information {
+  background-color: var(--theme-color);
+  color: var(--accent-color);
+  cursor: pointer;
+}
+.section__project .project .project__content .project__footer .project__link.btn-information:hover, .section__project .project .project__content .project__footer .project__link.btn-information:focus {
+  background-color: var(--accent-color);
+  color: var(--text-color-body);
 }
 .section__project .project:hover {
   box-shadow: 0 34px 32px -33px rgba(0, 0, 0, 0.18);
   transform: translate(0px, -3px);
+}
+.section__project .project__description {
+  background: var(--text-white-secondary);
+  transition: max-height 0.2s ease-out;
+  max-height: 0;
+  overflow: hidden;
+}
+.section__project .project__description .accordion-body {
+  padding: 20px;
+  font-size: 14px;
 }
 
 /**********************************************/

@@ -120,7 +120,6 @@ header {
       justify-content: center;
       align-items: center;
       gap: 0.5rem;
-      cursor: pointer;
       padding: 0.4rem 0.8rem;
       background-color: var(--accent-color);
       color: var(--text-color-body);
@@ -129,11 +128,8 @@ header {
       text-decoration: none;
       transition: 300ms ease-in-out 0ms;
       &.disabled {
-        color: #121a2b4e;
+        opacity: 0.5;
         cursor: not-allowed;
-        svg {
-          fill: #121a2b4e;
-        }
       }
 
       &:hover,
@@ -141,11 +137,6 @@ header {
         background-color: var(--theme-color);
         color: var(--accent-color);
         border-color: var(--accent-color);
-        // &:hover::after {
-        //   opacity: 1;
-        //   will-change: margin-left;
-        //   margin-left: 5px;
-        // }
         svg {
           fill: var(--accent-color);
         }
