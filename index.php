@@ -106,12 +106,13 @@
           </ul>
           <!-- Icones des Compétences -->
           <div class="block__icons">
-            <img src="/img/icons/html5-original.svg" class="icons" alt="icon html">
-            <img src="/img/icons/css3-original.svg" class="icons" alt="icon css">
-            <img src="/img/icons/javascript-original.svg" class="icons" alt="icon javascript">
-            <img src="/img/icons/bootstrap-original.svg" class="icons" alt="icon bootstrap">
-            <img src="/img/icons/figma-original.svg" class="icons" alt="icon figma">
-            <img src="/img/icons/wordpress-original.svg" class="icons" alt="icon wordpress">
+            <img src="/img/icons/html5-original.svg" title="HTML 5" class="icons" alt="icon html">
+            <img src="/img/icons/css3-original.svg" title="CSS 3" class="icons" alt="icon css">
+            <img src="/img/icons/javascript-original.svg" title="JavaScript" class="icons" alt="icon javascript">
+            <img src="/img/icons/bootstrap-original.svg" title="Bootstrap" class="icons" alt="icon bootstrap">
+            <img src="/img/icons/sass-original.svg" title="préprocesseur SASS" class="icons" alt="icon sass">
+            <img src="/img/icons/figma-original.svg" title="Figma" class="icons" alt="icon figma">
+
           </div>
         </div>
         <!-- skills Front-End -->
@@ -128,12 +129,12 @@
           </ul>
           <!-- Icones des Compétences -->
           <div class="block__icons">
-            <img src="/img/icons/php-original.svg" class="icons" alt="icon php">
-            <img src="/img/icons/mysql-original-wordmark.svg" class="icons" alt="icon mysql">
-            <img src="/img/icons/symfony-original-wordmark.svg" class="icons" alt="icon symfony">
-            <img src="/img/icons/vscode-original-wordmark.svg" class="icons" alt="icon vscode">
-            <img src="/img/icons/git-original-wordmark.svg" class="icons" alt="icon git">
-            <img src="/img/icons/github-original.svg" class="icons" alt="icon github">
+            <img src="/img/icons/php-original.svg" title="PHP" class="icons" alt="icon php">
+            <img src="/img/icons/mysql-original-wordmark.svg" title="MySQL" class="icons" alt="icon mysql">
+            <img src="/img/icons/symfony-original-wordmark.svg" title="Symfony" class="icons" alt="icon symfony">
+            <img src="/img/icons/wordpress-original.svg" title="WordPress" class="icons" alt="icon wordpress">
+            <img src="/img/icons/git-original-wordmark.svg" title="Git" class="icons" alt="icon git">
+            <img src="/img/icons/github-original.svg" title="GitHub" class="icons" alt="icon github">
           </div>
         </div>
         <!-- skills Back-End -->
@@ -142,14 +143,24 @@
 
     <section class="section-l" id="projects">
       <h2 class="section__title">Réalisations</h2>
-      <div class="section__content section__project">
-        <?php
-        // Récupération des projets depuis le fichier JSON pui bouclage/affichage des projets
-        $projectsJson = file_get_contents('contenu/my-projects.json');
-        $projects = json_decode($projectsJson, true); ?>
-        <?php foreach ($projects as $project): ?>
-          <?php include 'templates/_project-card.php'; ?>
-        <?php endforeach; ?>
+      <div class="section__content">
+        <!-- Boutons de filtre -->
+        <div class="filter__container">
+          <button class="filter active" data-type="personnal">Mes Réalisations</button>
+          <button class="filter" data-type="student">Projets étudiants</button>
+          <button class="filter" data-type="sequane">Réalisations Séquane</button>
+          <button class="filter" data-type="all">Tout voir</button>
+        </div>
+        <!-- Projets -->
+        <div class="project__container">
+          <?php
+          // Récupération des projets depuis le fichier JSON
+          $projectsJson = file_get_contents('contenu/my-projects.json');
+          $projects = json_decode($projectsJson, true); ?>
+          <?php foreach ($projects as $project): ?>
+            <?php include 'templates/_project-card.php'; ?>
+          <?php endforeach; ?>
+        </div>
       </div>
     </section>
 

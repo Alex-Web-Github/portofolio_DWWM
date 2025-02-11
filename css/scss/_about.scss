@@ -6,9 +6,15 @@
   line-height: 1.8;
   .text--underline {
     padding: 0.3rem 0.2rem;
-    background-image: linear-gradient(120deg, #fff 0, var(--accent-color) 10%, var(--accent-color) 90%, #fff 100%);
+    background-image: linear-gradient(
+      120deg,
+      #fff 0,
+      var(--accent-color-lighter) 15%,
+      var(--accent-color-lighter) 70%,
+      #fff 100%
+    );
     background-repeat: no-repeat;
-    background-size: 100% 0.2em;
+    background-size: 100% 0.6em;
     background-position: 0 88%;
     transition: background-size 0.2s ease-in-out;
     a {
