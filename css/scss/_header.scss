@@ -127,13 +127,15 @@ header {
       border-radius: 10px;
       text-decoration: none;
       transition: 300ms ease-in-out 0ms;
+      cursor: pointer;
       &.disabled {
         opacity: 0.5;
         cursor: not-allowed;
       }
 
       &:hover,
-      &:focus {
+      &:focus,
+      &:active {
         background-color: var(--theme-color);
         color: var(--accent-color);
         border-color: var(--accent-color);

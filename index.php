@@ -75,14 +75,14 @@
           <a target="_blank" class="info__btn disabled" role="link" aria-disabled="true" title="CV disponible sur demande">
             <svg width="18" height="18" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd">
               <path d="M22 0h-20v24h14l6-6v-18zm-6 18h4.36l-4.36 4.385v-4.385zm-3 1h-8v1h8v-1zm0-3h-8v1h8v-1zm6-2v-1h-14v1h14zm-7.059-4.968c-1.147-.265-2.214-.497-1.697-1.473 1.573-2.97.417-4.559-1.244-4.559-1.694 0-2.821 1.65-1.244 4.559.532.982-.575 1.214-1.697 1.473-1.024.237-1.062.745-1.059 1.635l.001.333h7.997l.001-.323c.004-.896-.03-1.407-1.058-1.645zm7.059.968h-4v1h4v-1zm0-2v-1h-4v1h4zm0-4h-4v1h4v-1z" />
-            </svg>Mon CV
+            </svg>mon CV
           </a>
 
-          <a type="button" class="info__btn" href="mailto:contact@alexcreationweb.fr?Subject=Contact depuis AlexCréationWeb.fr" target="_blank" title="M'envoyer un mail">
+          <button type="button" class="info__btn email__btn">
             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16">
               <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm3.436-.586L16 11.801V4.697z" />
-            </svg>contact@alexcreationweb.fr
-          </a>
+            </svg>cliquer pour voir l'e-mail
+          </button>
 
         </div>
       </div>
@@ -146,10 +146,10 @@
       <div class="section__content">
         <!-- Boutons de filtre -->
         <div class="filter__container">
-          <button class="filter active" data-type="personnal">Mes Réalisations</button>
+          <button class="filter active" data-type="all">Tout voir</button>
+          <button class="filter" data-type="personnal">Mes Réalisations</button>
           <button class="filter" data-type="student">Projets étudiants</button>
           <button class="filter" data-type="sequane">Réalisations Séquane</button>
-          <button class="filter" data-type="all">Tout voir</button>
         </div>
         <!-- Projets -->
         <div class="project__container">

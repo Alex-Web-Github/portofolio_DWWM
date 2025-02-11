@@ -294,17 +294,18 @@ header {
   border-radius: 10px;
   text-decoration: none;
   transition: 300ms ease-in-out 0ms;
+  cursor: pointer;
 }
 .hero .block__btn .info__btn.disabled {
   opacity: 0.5;
   cursor: not-allowed;
 }
-.hero .block__btn .info__btn:hover, .hero .block__btn .info__btn:focus {
+.hero .block__btn .info__btn:hover, .hero .block__btn .info__btn:focus, .hero .block__btn .info__btn:active {
   background-color: var(--theme-color);
   color: var(--accent-color);
   border-color: var(--accent-color);
 }
-.hero .block__btn .info__btn:hover svg, .hero .block__btn .info__btn:focus svg {
+.hero .block__btn .info__btn:hover svg, .hero .block__btn .info__btn:focus svg, .hero .block__btn .info__btn:active svg {
   fill: var(--accent-color);
 }
 
@@ -462,11 +463,7 @@ header {
   cursor: pointer;
   transition: 300ms ease-in-out 0ms;
 }
-.filter__container .filter:hover, .filter__container .filter:focus {
-  background-color: var(--theme-color);
-  color: var(--accent-color-lighter);
-}
-.filter__container .filter.active {
+.filter__container .filter:hover, .filter__container .filter:focus, .filter__container .filter.active {
   background-color: var(--theme-color);
   color: var(--accent-color-lighter);
 }

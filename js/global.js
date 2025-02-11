@@ -1,5 +1,19 @@
 document.addEventListener('DOMContentLoaded', function () {
 
+  // Afficher mon adresse e-mail au clic sur le bouton
+  const btnEmail = document.querySelector('.email__btn');
+  btnEmail.addEventListener('click', function () {
+    const email = 'contact' + '@' + 'alexcreationweb' + '.fr';
+    btnEmail.innerHTML = email;
+    // ajouter l'attribut title pour un texte au survol
+    btnEmail.setAttribute('title', 'Cliquez pour envoyer un e-mail');
+
+    btnEmail.addEventListener('click', function () {
+      window.location.href = 'mailto:' + email + '?Subject=Contact depuis AlexCréationWeb.fr';
+    });
+  });
+
+
   // Ouverture de l'Accordéon "Savoir +" dans Mes Réalisations
   const btnInfo = document.querySelectorAll('.project__content .btn-information');
   btnInfo.forEach((item) => {

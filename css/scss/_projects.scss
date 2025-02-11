@@ -12,10 +12,7 @@
     cursor: pointer;
     transition: 300ms ease-in-out 0ms;
     &:hover,
-    &:focus {
-      background-color: var(--theme-color);
-      color: var(--accent-color-lighter);
-    }
+    &:focus,
     &.active {
       background-color: var(--theme-color);
       color: var(--accent-color-lighter);
