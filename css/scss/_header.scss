@@ -1,7 +1,3 @@
-header {
-  background-color: var(--theme-color);
-}
-
 .header-l {
   display: flex;
   flex-direction: column;
@@ -22,25 +18,25 @@ header {
     .logo__title {
       font-family: monospace;
       color: rgba(255, 255, 255, 0.7);
+      font-size: 1.3rem;
       line-height: normal;
       .underscore {
+        display: inline-block;
+        color: var(--accent-color-lighter);
         padding: 0 0 0 2px;
         &.flash {
-          animation-name: flash;
-          animation-duration: 1s;
-          animation-iteration-count: infinite;
-          transition: none;
-        }
-        @keyframes flash {
-          0% {
-            opacity: 1;
+          @keyframes flash {
+            0% {
+              opacity: 1;
+            }
+            40% {
+              opacity: 0;
+            }
+            100% {
+              opacity: 1;
+            }
           }
-          40% {
-            opacity: 0;
-          }
-          100% {
-            opacity: 1;
-          }
+          animation: flash 1s infinite;
         }
       }
     }
@@ -77,16 +73,16 @@ header {
     margin: auto;
     .hero__img {
       z-index: 2;
-      margin-right: -40px;
+      margin-right: -3.5rem;
       img {
-        width: 300px;
+        width: 350px;
         border-radius: 50%;
         box-shadow: 0 0 10px rgba(244, 243, 243, 0.5);
       }
     }
     .hero__content {
       max-width: 60%;
-      padding: 30px 25px 30px 75px;
+      padding: 3rem 2rem 3rem 7rem;
       border: 1px solid rgb(255, 255, 255);
       border-radius: 10px;
       font-family: monospace;
@@ -136,7 +132,7 @@ header {
       &:hover,
       &:focus,
       &:active {
-        background-color: var(--theme-color);
+        background-color: unset;
         color: var(--accent-color);
         border-color: var(--accent-color);
         svg {
@@ -160,6 +156,7 @@ header {
     margin-top: 60px;
     .block__hero {
       .hero__img {
+        margin-right: -5rem;
       }
       .hero__content {
       }
@@ -182,7 +179,7 @@ header {
     }
   }
   .hero {
-    margin-top: 20px;
+    margin-top: 3rem;
     .block__hero {
       flex-direction: column;
       .hero__img {

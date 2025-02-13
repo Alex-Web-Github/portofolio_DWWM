@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function () {
     btnEmail.setAttribute('title', 'Cliquez pour envoyer un e-mail');
 
     btnEmail.addEventListener('click', function () {
-      window.location.href = 'mailto:' + email + '?Subject=Contact depuis AlexCréationWeb.fr';
+      window.location.href = 'mailto:' + email + '?Subject=Nouvelle demande depuis le site alexcreationweb.fr';
     });
   });
 
@@ -26,16 +26,13 @@ document.addEventListener('DOMContentLoaded', function () {
       otherProjects.forEach((otherProject) => {
         if (otherProject !== project) {
           otherProject.querySelector('.project__description').style.maxHeight = null;
-          otherProject.querySelector('.project__description').style.overflowY = 'hidden';
         }
       });
-
+      // Puis on ouvre l'accordéon du projet cliqué
       if (projectDescription.style.maxHeight) {
         projectDescription.style.maxHeight = null;
-        projectDescription.style.overflowY = 'hidden';
       } else {
-        projectDescription.style.maxHeight = '250px';
-        projectDescription.style.overflowY = 'scroll';
+        projectDescription.style.maxHeight = projectDescription.scrollHeight + 'px';
       }
     });
   });

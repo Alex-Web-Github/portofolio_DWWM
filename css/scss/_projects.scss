@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   gap: 1.5rem;
-  margin-bottom: 3rem;
+  margin-bottom: 4rem;
   .filter {
     padding: 5px 10px;
     background-color: var(--accent-color-lighter);
@@ -137,8 +137,7 @@
     background: var(--text-white-secondary);
     transition: max-height 0.4s ease-out;
     max-height: 0;
-    // overflow: hidden;
-    overflow-y: hidden;
+    overflow: hidden;
     .accordion-body {
       padding: 20px;
       font-size: 14px;
@@ -173,17 +172,22 @@
     margin-bottom: 2rem;
   }
   .project__container {
+    grid-template-columns: 1fr;
     grid-gap: 30px 20px;
-    // .project {
-    //   max-width: unset;
-    // }
+    justify-items: center;
+    .project {
+      max-width: 500px;
+      .project__cover {
+        height: 160px;
+      }
+    }
   }
 }
 
 /*  LAYOUT < 576px  */
 @media (max-width: 576px) {
   .project__container {
-    grid-template-columns: 1fr;
+    // grid-template-columns: 1fr;
   }
   .project {
     max-width: unset;

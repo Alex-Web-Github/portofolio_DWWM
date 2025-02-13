@@ -10,16 +10,25 @@
   <link rel="stylesheet" href="styles.css">
 
   <!-- Réseaux sociaux -->
-  <meta name="description" content="Création de sites internet et applications web entre Besançon et Pontarlier dans le Doubs et le Jura - Développeur WordPress">
-  <meta property="og:title" content="AlexCréationWeb - Développeur Web">
-  <meta property="og:description" content="Création de sites et applications web">
-  <meta property="og:image" content="/img/image_og_300-157.webp">
-  <meta property="og:image:alt" content="">
-  <meta property="og:locale" content="fr_FR">
-  <meta property="og:type" content="website">
-  <meta property="og:site_name" content="alexcreationweb">
-  <meta name="twitter:card" content="summary">
-  <meta property="og:url" content="https://alexcreationweb.fr">
+  <!-- Primary Meta Tags -->
+  <title>Création de sites web WordPress | AlexCréationWeb</title>
+  <meta name="title" content="Création de sites web WordPress | AlexCréationWeb" />
+  <meta name="description" content="Création de sites internet et applications web entre Besançon et Pontarlier dans le Doubs et le Jura - Développeur WordPress" />
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://alexcreationweb.fr/" />
+  <meta property="og:title" content="Création de sites web WordPress | AlexCréationWeb" />
+  <meta property="og:description" content="Création de sites internet et applications web entre Besançon et Pontarlier dans le Doubs et le Jura - Développeur WordPress" />
+  <meta property="og:image" content="/img/og-ACW.webp" />
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image" />
+  <meta property="twitter:url" content="https://alexcreationweb.fr/" />
+  <meta property="twitter:title" content="Création de sites web WordPress | AlexCréationWeb" />
+  <meta property="twitter:description" content="Création de sites internet et applications web entre Besançon et Pontarlier dans le Doubs et le Jura - Développeur WordPress" />
+  <meta property="twitter:image" content="/img/og-ACW.webp" />
+
   <link rel="canonical" href="https://alexcreationweb.fr/">
   <!-- <link rel="icon" href="/favicon.ico" sizes="32x32"> -->
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
@@ -29,6 +38,7 @@
   <link rel="manifest" href="/manifest.webmanifest">
   <meta name="theme-color" content="#000" media="(prefers-color-scheme: dark)">
   <meta name="theme-color" content="#FFF" media="(prefers-color-scheme: light)">
+  <meta name="google-site-verification" content="kr23kkoZ0vyyrqvXDdr4zmNJplpLqsw3i5BWJw7pJVw" />
 </head>
 
 <body>
@@ -36,9 +46,9 @@
     <div class="header-l">
       <div class="logo-nav">
         <div class="logo">
-          <div class="logo__img">
+          <!-- <div class="logo__img">
             <img src="/img/image_og_300-157.webp" alt="Logo AlexCréationWeb">
-          </div>
+          </div> -->
           <p class="logo__title">AlexCréationWeb<span class="underscore flash">_</span></p>
         </div>
         <!-- <nav class="navigation">
@@ -55,7 +65,7 @@
           </div>
           <div class="hero__content">
             <h1 class="hero__title">Alexandre Foulc</h1>
-            <p class="hero__subtitle">Développeur PHP | WordPress</p>
+            <p class="hero__subtitle">Développeur WordPress</p>
             <p class="hero__description">Passionné et créatif, je développe des sites et des applications web évolutives et performantes.</p>
           </div>
         </div>
@@ -90,7 +100,7 @@
   </header>
 
   <main class="main-l">
-    <section class="section-l" id="skills">
+    <section class="section-l">
       <h2 class="section__title">Compétences</h2>
       <div class="section__content section__skills">
         <div class="skill__block">
@@ -141,7 +151,7 @@
       </div>
     </section>
 
-    <section class="section-l" id="projects">
+    <section class="section-l">
       <h2 class="section__title">Réalisations</h2>
       <div class="section__content">
         <!-- Boutons de filtre -->
@@ -164,31 +174,34 @@
       </div>
     </section>
 
-    <section class="section-l" id="about">
+    <section class="section-l">
       <h2 class="section__title">Qui suis-je ?</h2>
       <div class="section__content">
         <p class="presentation__text">
-          Tout a commencé dans les années 80, lorsque j’ai posé mes mains sur un Thomson TO7. Une révélation. De ces premiers instants passés à explorer l’informatique est née une curiosité insatiable. Au début des années 2000, armé de DreamWeaver, j’ai construit ma première page web, sans me douter que cette expérience poserait les bases d’une nouvelle aventure.</p>
+          Tout a commencé dans les années 80, lorsque j’ai posé mes mains sur un ordinateur pour la première fois (un Thomson TO7...) et taper mes premières ligne de code (en Microsoft Basic) : Une révélation ! De ces premiers instants passés à explorer l’informatique est née une curiosité insatiable. En 2001, avec l'arrivée d'Internet, j’ai mis en ligne ma première page web, sans me douter que cette expérience poserait les bases d’une nouvelle aventure.</p>
         <p class="presentation__text">
-          Les années ont passé, et mon chemin m’a mené vers une autre passion : le sport (<span class="text--underline"><a href="https://sportsnatureevasion.com" target="_blank">découvrir mes activités&nbsp<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-box-arrow-up-right" viewBox="0 0 16 16">
+          Les années ont passé, et mon chemin m’a mené vers une autre passion : la Montagne (<span class="text--underline"><a href="https://sportsnatureevasion.com" target="_blank">découvrir mes activités&nbsp
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-box-arrow-up-right" viewBox="0 0 16 16">
                 <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5" />
                 <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0z" />
               </svg>
-              )</a></span>. Mais très vite, un constat s’est imposé : être visible en ligne devenait essentiel. Ce besoin a ravivé une flamme, un défi à relever. Comprendre, apprendre, créer. Aujourd’hui, je continue d’évoluer, de me former, de me réinventer au gré des challenges.</p>
-        <p class="presentation__text">Curieux et rigoureux, je me suis façonné à travers les défis. Aujourd’hui, chaque projet est une nouvelle exploration, un challenge à relever. Mon ambition ? Concevoir des expériences web modernes, performantes et uniques.</p>
+              )</a></span>. Mais très vite, un constat s’est imposé : être visible en ligne devenait essentiel. Ce besoin a ravivé une flamme... J'ai alors choisi d'évoluer et de me reéinventer. Je me suis formé aux nouvelles technologies du web pour assouvir mon besoin d'apprendre, disposer de plus de connaissances pour créer selon mes besoins/envies mais aussi mieux comprendre les évolutions futures de ce secteur.
+        </p>
+        <p class="presentation__text">Curieux, rigoureux, enthousiaste, je me suis façonné à travers les défis. Aujourd’hui, chaque projet est une nouvelle exploration, un challenge à relever.</br>
+          Mon ambition ? Concevoir des expériences web modernes, performantes et uniques.</p>
       </div>
     </section>
 
-    <section class="section-l" id="path">
+    <section class="section-l">
       <h2 class="section__title">Parcours / Expériences</h2>
       <div class="section__content section__path">
         <div class="step step--right">
-          <p class="step__title">Développeur Web en Freelance - Mars 2024</p>
-          <p class="step__description">Sites WordPress sur-mesure | Applications PHP/Symfony</p>
+          <p class="step__title"> Freelance - depuis Mars 2025</p>
+          <p class="step__description">Développeur WordPress | Applications PHP / Symfony</p>
         </div>
         <div class="step step--left">
-          <p class="step__title">Agence SÉQUANE - Nov. 2023 - Déc. 2024</p>
-          <p class="step__description">Concepteur Développeur d'Applications PHP/Symfony par apprentissage</p>
+          <p class="step__title">Apprentissage | SÉQUANE - Nov. 2023 - Déc. 2024</p>
+          <p class="step__description">Concepteur Développeur d'Applications PHP / Symfony</p>
         </div>
         <div class="step step--right">
           <p class="step__title">STUDI / Digital School - Oct. 2022 - Juin 2023</p>

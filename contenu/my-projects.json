@@ -1,13 +1,79 @@
 [
   {
     "date": "2024",
-    "tag": ["WordPress", "ACF Pro"],
+    "tag": ["WordPress"],
     "title": "Trackloc",
-    "subtitle": "Site de location d'engins de chantier",
-    "cover": "",
+    "subtitle": "Entreprise de vente / location de matériels spécialisés pour chantier ",
+    "cover": "img/thumbnail-trackloc.webp",
     "link": "https://tracklocservices.fr/",
     "link-github": "",
-    "description": "Un site réalisé durant mon apprentissage dans l'Agence Séquane.",
+    "description": "Projet réalisé durant mon apprentissage dans l'Agence Séquane. Les blocs de contenu ont été codés selon la maquette graphique validée par le client. Ils seront ensuite réutilisables facilement pour modifier des pages existantes ou en créer de nouvelles. Le client peut facilement mettre à jour les informations grâce à un back-office personnalisé. Le site est bien-sûr Responsive et optimisé pour le référencement.",
+    "type": "sequane"
+  },
+  {
+    "date": "2024",
+    "tag": ["WordPress"],
+    "title": "ENILÉA",
+    "subtitle": "École Nationale de l’Innovation des Laboratoires, de l’Eau et de l’Alimentation",
+    "cover": "img/thumbnail-enilea.webp",
+    "link": "https://enilea.fr/",
+    "link-github": "",
+    "description": "Projet réalisé durant mon apprentissage dans l'Agence Séquane. Les blocs de contenu ont été codés selon la maquette graphique validée par le client. Ils seront ensuite réutilisables facilement pour modifier des pages existantes ou en créer de nouvelles. Un site ambitieux par le nombre de blocs différents à développer, la quantité de contenu à intégrer, et le niveau de personnalisation du back-office pour rendre l'administration du contenu simple et intuitive.",
+    "type": "sequane"
+  },
+  {
+    "date": "2024",
+    "tag": ["WordPress", "WooCommerce"],
+    "title": "Préval Haut-Doubs",
+    "subtitle": "Établissement en charge de la Prévention et de la Valorisation des déchets ménagers",
+    "cover": "img/thumbnail-preval.webp",
+    "link": "https://preval.fr/",
+    "link-github": "",
+    "description": "Projet réalisé durant mon apprentissage dans l'Agence Séquane. Les blocs de contenu ont été codés selon la maquette graphique validée par le client. Ils seront ensuite réutilisables facilement pour modifier des pages existantes ou en créer de nouvelles. Un projet caractérisé par une grande quantité de contenu à (ré)intégrer car il s'agissait d'une refonte. Un espace boutique a été ajouté pour la vente de produits dérivés (compost, composteurs, etc.) ainsi qu'un système click-and-collect.",
+    "type": "sequane"
+  },
+  {
+    "date": "2024",
+    "tag": ["WordPress"],
+    "title": "La République du Saugeais",
+    "subtitle": "Une république insolite où l’histoire et la convivialité se rencontrent",
+    "cover": "img/thumbnail-saugeais.webp",
+    "link": "https://republique-saugeais.fr/",
+    "link-github": "",
+    "description": "Projet réalisé durant mon apprentissage dans l'Agence Séquane. Les blocs de contenu ont été codés selon la maquette graphique validée par le client. Ils seront ensuite réutilisables facilement partout sur le site. Plusieurs types de Galeries d'images sont à disposition (Masonry, Miniatures, Carousel). Une attention particulière a été portée sur le back-office : la mise à jour / création de nouveaux contenus est intuitive et rapide pour l'administratrice du site. N'ayant aucune connaissance de WordPress, une formation lui a été proposée. Le site est bien-sûr Responsive et optimisé pour le référencement.",
+    "type": "sequane"
+  },
+  {
+    "date": "2024",
+    "tag": ["WordPress"],
+    "title": "Agence Séquane",
+    "subtitle": "Agence de communication & marketing à Pontarlier",
+    "cover": "img/thumbnail-sequane.webp",
+    "link": "https://www.sequane.fr/",
+    "link-github": "",
+    "description": "Projet réalisé durant mon apprentissage dans l'Agence Séquane. Il s'agit de la refonte du site de l'agence qui présente ses services, ses réalisations, son équipe, etc. L'objectif était d'utiliser WordPress pour gérer le contenu et d'apporter de la modernité tout en gardant le Design précédent (noir&blanc). L'arborescence a été repensée pour une meilleure ergonomie et un meilleur référencement.",
+    "type": "sequane"
+  },
+  {
+    "date": "2024",
+    "tag": ["WordPress"],
+    "title": "Formes-toi au bois",
+    "subtitle": "Présentation de la formation Bac Pro Technicien Scierie",
+    "cover": "img/thumbnail-formestoiaubois.webp",
+    "link": "https://www.forme-toi-au-bois.fr/",
+    "link-github": "",
+    "description": "Projet réalisé durant mon apprentissage dans l'Agence Séquane. Un site 'seulement' one-page mais intéressant du fait des animations variées dont assez certaines 'tricky' à réaliser.",
+    "type": "sequane"
+  },
+  {
+    "date": "2024",
+    "tag": ["WordPress", "Elementor Pro"],
+    "title": "O-DOO",
+    "subtitle": "Site du magazine Commerçants et Artisans du Grand Pontarlier",
+    "cover": "img/thumbnail-odoo.webp",
+    "link": "https://o-doo.fr/",
+    "link-github": "",
+    "description": "Projet réalisé durant mon apprentissage dans l'Agence Séquane. Un site assez classique, permettant de consulter le dernier numéro du magazine O-doo (sous la forme d'un Calaméo), visionner quelques vidéos d'annonceurs et prendre contact. Spécificité : un changement de Design régulier (tous les 6 mois) pour s'adapter à celui du nouveau numéro.",
     "type": "sequane"
   },
   {
@@ -29,7 +95,7 @@
     "cover": "img/thumbnail-moneyball-mini.webp",
     "link": "",
     "link-github": "https://github.com/Alex-Web-Github/ECF-SuperBowl",
-    "description": "Projet réalisé dans le cadre de ma formation. Application 'hybride' car j'ai utilisé certains composants de Symfony mais pas son architecture complète. J'ai appris à gérer les formats date/heure, l'envoi de mails avec authentification et la gestion de formulaires pour interagir avec la BDD. Sur son Dashboard, l'Administrateur crée des équipes (choix de 11 joueurs parmi une liste prédéfinie), crée des matchs (nom des 2 équipes, date, heures). Les visiteurs peuvent uniquement consulter les matchs passés, en cours, et à venir. Pour jouer, il devra s'inscrire au préalable (envoi d'e-mail de validation). Une fois inscrit, l'Utilisateur pourra se connecter, parier sur un match, consulter ses paris, voir les résultats des matchs, voir son solde, etc. Le Speaker pourra commenter les matchs en direct et déterminer le score final.",
+    "description": "Projet réalisé dans le cadre de ma formation. Application PHP 'hybride' car j'ai utilisé certains composants de Symfony mais pas son architecture complète. J'ai appris à gérer les formats date/heure, l'envoi de mails avec authentification et la gestion de formulaires pour interagir avec la BDD. Sur son Dashboard, l'Administrateur crée des équipes (choix de 11 joueurs parmi une liste prédéfinie), crée des matchs (nom des 2 équipes, date, heures). Les visiteurs peuvent uniquement consulter les matchs passés, en cours, et à venir. Pour jouer, il devra s'inscrire au préalable (envoi d'e-mail de validation). Une fois inscrit, l'Utilisateur pourra se connecter, parier sur un match, consulter ses paris, voir les résultats des matchs, voir son solde, etc. Le Speaker pourra commenter les matchs en direct et déterminer le score final.",
     "type": "student"
   },
   {
@@ -51,7 +117,7 @@
     "cover": "img/thumbnail-CDS25-mini.webp",
     "link": "https://www.speleo-doubs.com/",
     "link-github": "",
-    "description": "Site associatif réalisé avec le thème GeneratePress de WordPress. Design personnalisé avec Gutenberg et CSS. Le site est administré par plusieurs personnes, chacune ayant un rôle spécifique. Le site est en constante évolution, avec l'ajout de nouvelles fonctionnalités et l'amélioration de l'ergonomie.",
+    "description": "Site associatif réalisé avec le thème GeneratePress. Design personnalisé avec des blocs Gutenberg et du CSS custom. Le site est administré par plusieurs personnes, chacune ayant un rôle spécifique.",
     "type": "personnal"
   },
   {
@@ -69,7 +135,7 @@
     "date": "2023",
     "tag": ["PHP", "Bootstrap", "SASS"],
     "title": "Restaurant Quai Antique",
-    "subtitle": "Site avec Back-Office et Réservation en ligne",
+    "subtitle": "Site vitrine, contenu administrable et réservation en ligne",
     "cover": "img/thumbnail-quaiantique-mini.webp",
     "link": "http://sc4foal9574.universe.wf/quai_antique/",
     "link-github": "https://github.com/Alex-Web-Github/Restaurant_QuaiAntique",
@@ -95,18 +161,18 @@
     "cover": "img/thumbnail-rolldice-mini.webp",
     "link": "https://alex-web-github.github.io/Jeu-RollDice-JS/",
     "link-github": "https://github.com/Alex-Web-Github/Jeu-RollDice-JS",
-    "description": "Jeu de dé en JavaScript, et utilisation de BulmaCSS. Projet réalisé dans le cadre de ma formation. Un point rouge (aléatoire) désigne qui débute la partie (Player 1 ou 2). Ici, l'utilisateur lance un dé (avec 'Roll Dice') puis le résultat s'affiche dans 'Current'. Il peut choisir de rejouer (dans ce cas les chiffres s'additionnent temporairement) ou de garder le score (avec 'Hold', dans ce cas le score s'affiche en haut et c'est à l'autre joueur de lancer le dé). Attention : si un '1' est obtenu, le tour est perdu et le score est remis à zéro.",
+    "description": "Mon premier code en JavaScript (et utilisation d'un framework alternatif : BulmaCSS), réalisé dans le cadre de ma formation. Déroulement du jeu : un point rouge (aléatoire) désigne qui débute la partie (Player 1 ou 2). Ici, l'utilisateur lance un dé (avec 'Roll Dice') puis le résultat s'affiche dans 'Current'. Il peut choisir de rejouer (dans ce cas les chiffres s'additionnent temporairement) ou de garder le score (avec 'Hold', dans ce cas le score s'affiche en haut et c'est à l'autre joueur de lancer le dé). Attention : si un '1' est obtenu, le tour est perdu et le score est remis à zéro.",
     "type": "student"
   },
   {
     "date": "Refonte en 2020",
     "tag": ["WordPress"],
     "title": "SportsNatureÉvasion",
-    "subtitle": "Site web de mon activité de Guide / Éducateur sportif",
+    "subtitle": "Mon activité de Guide / Éducateur sportif",
     "cover": "img/thumbnail-sportsnatureevasion-mini.webp",
     "link": "https://www.sportsnatureevasion.com",
     "link-github": "",
-    "description": "Site web réalisé avec le thème GeneratePress de WordPress. Design personnalisé avec Gutenberg et CSS. Le site est administré par moi-même. Il présente mes différentes activités de guide / éducateur sportif. Il est en constante évolution, avec l'ajout de nouvelles fonctionnalités et l'amélioration de l'ergonomie.",
+    "description": "Site web réalisé avec le thème GeneratePress de WordPress. Design personnalisé avec Gutenberg et du CSS custom. Le site est administré par moi-même. Il présente mes différentes activités de guide / éducateur sportif. Il est en constante évolution, avec l'ajout de nouvelles fonctionnalités et l'amélioration de l'ergonomie.",
     "type": "personnal"
   },
   {
