@@ -13,8 +13,8 @@
       <p class="subtitle"><?php echo htmlspecialchars($project['subtitle']); ?></p>
     </div>
     <div class="project__footer">
-      <a type="button" class="project__link btn-information" title="en savoir plus">savoir +
-      </a>
+      <btn type="button" class="project__link btn-information" title="en savoir plus">savoir +
+      </btn>
       <div class="links-group">
         <?php if (isset($project['link-github']) && !empty($project['link-github'])): ?>
           <a href="<?= htmlspecialchars($project['link-github']); ?>" class="project__link" target="_blank" title="voir sur Github">code<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" class="bi bi-box-arrow-up-right" viewBox="0 0 16 16">
