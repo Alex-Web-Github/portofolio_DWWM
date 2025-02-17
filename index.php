@@ -5,13 +5,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <title>Création de sites web WordPress | AlexCréationWeb</title>
-
   <!-- <link rel="stylesheet" href="styles-mini.css"> -->
   <link rel="stylesheet" href="styles.css">
 
-  <!-- Réseaux sociaux -->
-  <!-- Primary Meta Tags -->
-  <title>Création de sites web WordPress | AlexCréationWeb</title>
   <meta name="title" content="Création de sites web WordPress | AlexCréationWeb" />
   <meta name="description" content="Création de sites internet et applications web entre Besançon et Pontarlier dans le Doubs et le Jura - Développeur WordPress" />
 
@@ -21,7 +17,6 @@
   <meta property="og:title" content="Création de sites web WordPress | AlexCréationWeb" />
   <meta property="og:description" content="Création de sites internet et applications web entre Besançon et Pontarlier dans le Doubs et le Jura - Développeur WordPress" />
   <meta property="og:image" content="/img/og-ACW.webp" />
-
   <!-- Twitter -->
   <meta property="twitter:card" content="summary_large_image" />
   <meta property="twitter:url" content="https://alexcreationweb.fr/" />
@@ -30,11 +25,12 @@
   <meta property="twitter:image" content="/img/og-ACW.webp" />
 
   <link rel="canonical" href="https://alexcreationweb.fr/">
-  <!-- <link rel="icon" href="/favicon.ico" sizes="32x32"> -->
+
+  <!-- Favicon pour différents navigateurs et appareils -->
+  <!-- <link rel="icon" href="/favicon.ico" type="image/x-icon"> -->
+  <link rel="icon" href="/favicon-32x32.png" type="image/png">
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
-  <!-- ICON APPLE EN 192x192 -->
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-  <!-- For Android devices -->
   <link rel="manifest" href="/manifest.webmanifest">
   <meta name="theme-color" content="#000" media="(prefers-color-scheme: dark)">
   <meta name="theme-color" content="#FFF" media="(prefers-color-scheme: light)">
@@ -61,7 +57,7 @@
       <div class="hero">
         <div class="block__hero">
           <div class="hero__img">
-            <img src="/img/IMG_alex-mini.jpeg" alt="Alexandre Foulc développeur web">
+            <img src="/img/Alex-Alpha-350px.webp" width="250px" height="350px" alt="Alexandre Foulc développeur web">
           </div>
           <div class="hero__content">
             <h1 class="hero__title">Alexandre Foulc</h1>
@@ -105,7 +101,7 @@
       <div class="section__content section__skills">
         <div class="skill__block">
           <div class="block__title">
-            <img src="/img/ui-design.png" class="title__icon" alt="icon Front-End">
+            <img src="/img/icon-front-end-60px.webp" width="60px" height="60px" alt="icon Front-End">
             <h3 class="skill__title">Front-End</h3>
           </div>
           <ul class="skill__list">
@@ -116,19 +112,19 @@
           </ul>
           <!-- Icones des Compétences -->
           <div class="block__icons">
-            <img src="/img/icons/html5-original.svg" title="HTML 5" class="icons" alt="icon html">
-            <img src="/img/icons/css3-original.svg" title="CSS 3" class="icons" alt="icon css">
-            <img src="/img/icons/javascript-original.svg" title="JavaScript" class="icons" alt="icon javascript">
-            <img src="/img/icons/bootstrap-original.svg" title="Bootstrap" class="icons" alt="icon bootstrap">
-            <img src="/img/icons/sass-original.svg" title="préprocesseur SASS" class="icons" alt="icon sass">
-            <img src="/img/icons/figma-original.svg" title="Figma" class="icons" alt="icon figma">
+            <img src="/img/icons/html5-original.svg" width="50px" height="50px" title="HTML 5" class="icons" alt="icon html">
+            <img src="/img/icons/css3-original.svg" width="50px" height="50px" title="CSS 3" class="icons" alt="icon css">
+            <img src="/img/icons/javascript-original.svg" width="50px" height="50px" title="JavaScript" class="icons" alt="icon javascript">
+            <img src="/img/icons/bootstrap-original.svg" width="50px" height="50px" title="Bootstrap" class="icons" alt="icon bootstrap">
+            <img src="/img/icons/sass-original.svg" width="50px" height="50px" title="préprocesseur SASS" class="icons" alt="icon sass">
+            <img src="/img/icons/figma-original.svg" width="50px" height="50px" title="Figma" class="icons" alt="icon figma">
 
           </div>
         </div>
         <!-- skills Front-End -->
         <div class="skill__block">
           <div class="block__title">
-            <img src="/img/back-end.png" class="title__icon" alt="icon Back-End">
+            <img src="/img/icon-back-end-60px.webp" width="60px" height="60px" alt="icon Back-End">
             <h3 class="skill__title">Back-End</h3>
           </div>
           <ul class="skill__list">
@@ -139,12 +135,12 @@
           </ul>
           <!-- Icones des Compétences -->
           <div class="block__icons">
-            <img src="/img/icons/php-original.svg" title="PHP" class="icons" alt="icon php">
-            <img src="/img/icons/mysql-original-wordmark.svg" title="MySQL" class="icons" alt="icon mysql">
-            <img src="/img/icons/symfony-original-wordmark.svg" title="Symfony" class="icons" alt="icon symfony">
-            <img src="/img/icons/wordpress-original.svg" title="WordPress" class="icons" alt="icon wordpress">
-            <img src="/img/icons/git-original-wordmark.svg" title="Git" class="icons" alt="icon git">
-            <img src="/img/icons/github-original.svg" title="GitHub" class="icons" alt="icon github">
+            <img src="/img/icons/php-original.svg" width="50px" height="50px" title="PHP" class="icons" alt="icon php">
+            <img src="/img/icons/mysql-original-wordmark.svg" width="50px" height="50px" title="MySQL" class="icons" alt="icon mysql">
+            <img src="/img/icons/symfony-original-wordmark.svg" width="50px" height="50px" title="Symfony" class="icons" alt="icon symfony">
+            <img src="/img/icons/wordpress-original.svg" width="50px" height="50px" title="WordPress" class="icons" alt="icon wordpress">
+            <img src="/img/icons/git-original-wordmark.svg" width="50px" height="50px" title="Git" class="icons" alt="icon git">
+            <img src="/img/icons/github-original.svg" width="50px" height="50px" title="GitHub" class="icons" alt="icon github">
           </div>
         </div>
         <!-- skills Back-End -->
@@ -180,7 +176,7 @@
         <p class="presentation__text">
           Tout a commencé dans les années 80, lorsque j’ai posé mes mains sur un ordinateur pour la première fois (un Thomson TO7...) et taper mes premières ligne de code (en Microsoft Basic) : Une révélation ! De ces premiers instants passés à explorer l’informatique est née une curiosité insatiable. En 2001, avec l'arrivée d'Internet, j’ai mis en ligne ma première page web, sans me douter que cette expérience poserait les bases d’une nouvelle aventure.</p>
         <p class="presentation__text">
-          Les années ont passé, et mon chemin m’a mené vers une autre passion : la Montagne (<span class="text--underline"><a href="https://sportsnatureevasion.com" target="_blank">découvrir mes activités&nbsp
+          Les années ont passé, et mon chemin m’a mené vers une autre passion : la Montagne (<span class="text--underline"><a href="https://sportsnatureevasion.com" target="_blank">découvrir mon activité de Guide&nbsp
               <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-box-arrow-up-right" viewBox="0 0 16 16">
                 <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5" />
                 <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0z" />
@@ -228,7 +224,7 @@
     </div>
   </footer>
 
-  <script src="/js/global.js"></script>
+  <script src="/js/global.js" defer></script>
 
 </body>
 
