@@ -1,0 +1,22 @@
+{
+  "name": "portofolio_dwwm",
+  "version": "1.0.0",
+  "description": "Présentation de différents projets",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass css/scss/styles.scss:styles.css",
+    "watch": "sass --watch css/scss/styles.scss:styles.css",
+    "minify": "postcss styles.css > styles-mini.css",
+    "build": "npm run sass && npm run minify"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.69.7"
+  },
+  "devDependencies": {
+    "cssnano": "^6.0.3",
+    "postcss": "^8.4.33",
+    "postcss-cli": "^11.0.0"
+  }
+}

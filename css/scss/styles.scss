@@ -1,0 +1,22 @@
+@import "_reset";
+
+/*  BASE : mes variables */
+@import "_variables";
+
+// HEADER
+@import "_header.scss";
+
+// Section COMPÉTENCES
+@import "_skills.scss";
+
+// Section PROJETS
+@import "_projects.scss";
+
+// Section PRÉSENTATION
+@import "_about.scss";
+
+// Section PARCOURS
+@import "_path.scss";
+
+// FOOTER
+@import "_footer.scss";

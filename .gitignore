@@ -1,0 +1,53 @@
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Dependency directories
+node_modules/
+vendor/
+
+# Build files
+dist/
+build/
+*.map
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# PHP files
+*.php~
+*.swp
+*.bak
+
+# Cache files
+.cache/
+.sass-cache/
+*.css.map
+*.js.map
+
+# Local development
+*.local
+.phpunit.result.cache
+
+# Temporary files
+tmp/
+temp/
