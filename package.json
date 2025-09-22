@@ -1,12 +1,12 @@
 {
-  "name": "portofolio_dwwm",
+  "name": "portofolio_alexcreationweb",
   "version": "1.0.0",
   "description": "Présentation de différents projets",
   "main": "index.js",
   "scripts": {
-    "sass": "sass css/scss/styles.scss:styles.css",
-    "watch": "sass --watch css/scss/styles.scss:styles.css",
-    "minify": "postcss styles.css > styles-mini.css",
+    "sass": "sass assets/styles/scss/styles.scss:public/assets/css/styles.css",
+    "watch": "sass --watch assets/styles/scss/styles.scss:public/assets/css/styles.css",
+    "minify": "postcss public/assets/css/styles.css > public/assets/css/styles-mini.css",
     "build": "npm run sass && npm run minify"
   },
   "author": "",

@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <title>Création de sites web WordPress | AlexCréationWeb</title>
   <!-- <link rel="stylesheet" href="styles-mini.css"> -->
-  <link rel="stylesheet" href="/assets/css/styles.css">
+  <link rel="stylesheet" href="/assets/css/styles-mini.css">
 
   <meta name="title" content="Création de sites web WordPress | AlexCréationWeb" />
   <meta name="description" content="Création de sites internet et applications web entre Besançon et Pontarlier dans le Doubs et le Jura - Développeur WordPress" />
