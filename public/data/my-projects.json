@@ -66,17 +66,6 @@
     "type": "sequane"
   },
   {
-    "date": "2024",
-    "tag": ["WordPress", "Elementor Pro"],
-    "title": "O-DOO",
-    "subtitle": "Site du magazine Commerçants et Artisans du Grand Pontarlier",
-    "cover": "/assets/images/projects/thumbnail-odoo.webp",
-    "link": "https://o-doo.fr/",
-    "link-github": "",
-    "description": "Projet réalisé durant mon apprentissage dans l'Agence Séquane. Un site assez classique, permettant de consulter le dernier numéro du magazine O-doo (sous la forme d'un Calaméo), visionner quelques vidéos d'annonceurs et prendre contact. Spécificité : un changement de Design régulier (tous les 6 mois) pour s'adapter à celui du nouveau numéro.",
-    "type": "sequane"
-  },
-  {
     "date": "2024 - Développement en cours",
     "tag": ["Symfony", "MySQL", "Bootstrap"],
     "title": "RéservaClasse",
@@ -174,16 +163,5 @@
     "link-github": "",
     "description": "Site web réalisé avec le thème GeneratePress de WordPress. Design personnalisé avec Gutenberg et du CSS custom. Le site est administré par moi-même. Il présente mes différentes activités de guide / éducateur sportif. Il est en constante évolution, avec l'ajout de nouvelles fonctionnalités et l'amélioration de l'ergonomie.",
     "type": "personnal"
-  },
-  {
-    "date": "2022",
-    "tag": ["Webdesign", "Figma"],
-    "title": "ClipBoard",
-    "subtitle": "Maquette sous Figma d'une application web fictive (desktop/mobile)",
-    "cover": "/assets/images/projects/thumbnail-clipboard-mini.webp",
-    "link": "/assets/images/projects/Clipboard-Design_compressed.pdf",
-    "link-github": "",
-    "description": "Maquette d'une application web fictive (desktop et mobile) réalisée sous Figma. L'objectif était de travailler le design d'une application web en respectant les principes de l'UI/UX Design. J'ai réalisé ce projet dans le cadre de ma formation.",
-    "type": "student"
   }
 ]
