@@ -41,21 +41,34 @@ document.addEventListener('DOMContentLoaded', function () {
   ///////////////////////////////////////
   // Gestion des Projets avec filtres
   ///////////////////////////////////////
-  const filterButtons = document.querySelectorAll('.filter');
 
+  const filterButtons = document.querySelectorAll('.filter');
+  const projects = document.querySelectorAll('.project'); // Changed from .project-card to .project
+
+  // Fonction de filtrage
+  function filterProjects(type) {
+    projects.forEach((project) => {
+      const projectType = project.dataset.type;
+      project.style.display = (type === projectType) ? 'block' : 'none';
+    });
+
+    // Mise à jour de la classe active sur les boutons
+    filterButtons.forEach(btn => {
+      if (btn.dataset.type === type) {
+        btn.classList.add('active');
+      } else {
+        btn.classList.remove('active');
+      }
+    });
+  }
+
+  // Appliquer le filtre "personnal" au chargement
+  filterProjects('personnal');
+
+  // Gestionnaire de clic pour les boutons
   filterButtons.forEach((button) => {
     button.addEventListener('click', function () {
-      // Toggle la classe .active sur le bouton cliqué
-      filterButtons.forEach((btn) => btn.classList.remove('active'));
-      button.classList.add('active');
-
-      // Affichage des Projets selon bouton de filtre cliqué
-      const type = button.dataset.type;
-      const projects = document.querySelectorAll('.project');
-      projects.forEach((project) => {
-        const projectType = project.dataset.type;
-        project.style.display = (type === 'all' || type === projectType) ? 'block' : 'none';
-      });
+      filterProjects(this.dataset.type);
     });
   });
 

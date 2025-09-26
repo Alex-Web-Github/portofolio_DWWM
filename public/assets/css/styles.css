@@ -657,22 +657,9 @@ footer {
 /**********************************************/
 /*************  RESPONSIVE  
 ***********************************************/
-/*  LAYOUT < 1024px  */
-@media (max-width: 1024px) {
-  #skills .section__skills .skill__block {
-    padding: 20px;
-    max-width: 400px;
-    margin: 0 auto;
-  }
-  #path .section__path {
-    padding-right: 30px;
-    padding-left: 30px;
-  }
-}
 /*  LAYOUT < 576px  */
 @media (max-width: 576px) {
   .presentation__text {
-    width: calc(100% - 30px);
     font-size: 1.1rem;
   }
 }

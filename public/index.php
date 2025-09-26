@@ -57,8 +57,7 @@
   <div class="section__content">
     <!-- Boutons de filtre -->
     <div class="filter__container">
-      <button class="filter active" data-type="all">Tout voir</button>
-      <button class="filter" data-type="personnal">Mes Réalisations</button>
+      <button class="filter active" data-type="personnal">Mes Réalisations</button>
       <button class="filter" data-type="student">Projets étudiants</button>
       <button class="filter" data-type="sequane">Réalisations Séquane</button>
     </div>
@@ -97,7 +96,7 @@
   <h2 class="section__title">Parcours / Expériences</h2>
   <div class="section__content section__path">
     <div class="step step--right">
-      <p class="step__title"> Freelance - depuis Mars 2025</p>
+      <p class="step__title"> Freelance - depuis Septembre 2025</p>
       <p class="step__description">Développeur WordPress | Applications PHP / Symfony</p>
     </div>
     <div class="step step--left">

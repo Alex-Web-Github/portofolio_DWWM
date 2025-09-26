@@ -59,11 +59,25 @@
         <div class="block__hero">
           <div class="hero__img">
             <picture>
-              <source srcset="/assets/images/Alex-Alpha-200px.webp" media="(max-width: 768px)">
-              <source srcset="/assets/images/Alex-Alpha-350px.webp" media="(min-width: 769px)">
-              <img rel="preload" as="image" src="/assets/images/Alex-Alpha-350px.webp" width="250" height="350" fetchpriority="high"
-                alt="Alexandre Foulc développeur web"
-                </picture>
+              <!-- Mobile WebP -->
+              <source
+                srcset="/assets/images/Alex-Alpha-200px.webp"
+                media="(max-width: 768px)"
+                type="image/webp">
+
+              <!-- Desktop WebP -->
+              <source
+                srcset="/assets/images/Alex-Alpha-350px.webp"
+                media="(min-width: 769px)"
+                type="image/webp">
+
+              <!-- Fallback JPG -->
+              <img
+                src="/assets/images/Alex-Alpha-350px.jpeg"
+                width="250" height="350"
+                fetchpriority="high"
+                alt="Alexandre Foulc développeur web">
+            </picture>
           </div>
           <div class="hero__content">
             <h1 class="hero__title">Alexandre Foulc</h1>
