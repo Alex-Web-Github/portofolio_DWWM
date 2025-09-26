@@ -1,0 +1,8 @@
+User-agent: *
+# Autoriser tout le contenu public
+Allow: /
+
+# Bloquer ce qui ne doit pas être accessible ou indexé
+Disallow: /assets/
+Disallow: /data/
+Disallow: /templates/
