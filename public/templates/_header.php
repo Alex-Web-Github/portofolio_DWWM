@@ -61,7 +61,7 @@
             <picture>
               <source srcset="/assets/images/Alex-Alpha-200px.webp" media="(max-width: 768px)">
               <source srcset="/assets/images/Alex-Alpha-350px.webp" media="(min-width: 769px)">
-              <img src="/assets/images/Alex-Alpha-350px.webp" width="250" height="350" fetchpriority="high"
+              <img rel="preload" as="image" src="/assets/images/Alex-Alpha-350px.webp" width="250" height="350" fetchpriority="high"
                 alt="Alexandre Foulc développeur web"
                 </picture>
           </div>

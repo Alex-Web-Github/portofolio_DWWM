@@ -52,7 +52,7 @@
   </div>
 </section>
 
-<section class="section-l">
+<section class="section-l  wide-size">
   <h2 class="section__title">Réalisations</h2>
   <div class="section__content">
     <!-- Boutons de filtre -->

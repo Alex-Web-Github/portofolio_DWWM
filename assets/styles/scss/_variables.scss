@@ -1,4 +1,6 @@
 :root {
+  --wide-size: 1300px;
+  --content-size: 1000px;
   --main-bg-color: #fff;
   --theme-color: #162850;
   --theme-color-dark: #0d1830;
@@ -40,15 +42,23 @@ footer {
 }
 
 .main-l {
-  max-width: 1200px;
+  max-width: var(--wide-size);
   margin: 0 auto;
   padding-top: 60px;
 }
 
 .section-l {
-  max-width: 100%;
+  max-width: var(--content-size);
   padding: 100px 15px 0;
+  margin: 0 auto;
 }
+
+.wide-size {
+  max-width: var(--wide-size);
+}
+// .content-size {
+//   max-width: var(--content-size);
+// }
 
 .section__title {
   transform: rotate(-0.01turn);

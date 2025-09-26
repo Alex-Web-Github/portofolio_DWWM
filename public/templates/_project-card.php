@@ -13,7 +13,7 @@
       <p class="subtitle"><?php echo htmlspecialchars($project['subtitle']); ?></p>
     </div>
     <div class="project__footer">
-      <btn type="button" class="project__link btn-information" title="en savoir plus">savoir +
+      <btn type="button" class="project__link btn-information" title="en savoir plus">+ de détails
       </btn>
       <div class="links-group">
         <?php if (isset($project['link-github']) && !empty($project['link-github'])): ?>

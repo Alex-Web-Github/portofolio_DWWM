@@ -1,7 +1,7 @@
 .section__skills {
   display: flex;
-  justify-content: space-between;
-  gap: 2rem;
+  justify-content: center;
+  gap: 4rem;
   .skill__block {
     display: flex;
     flex-direction: column;
@@ -48,6 +48,7 @@
 /*  LAYOUT < 1024px  */
 @media (max-width: 1024px) {
   .section__skills {
+    gap: 1rem;
     .skill__block {
       padding: 20px;
       max-width: 400px;

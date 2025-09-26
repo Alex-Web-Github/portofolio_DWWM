@@ -66,14 +66,14 @@
     "type": "sequane"
   },
   {
-    "date": "2024 - Développement en cours",
-    "tag": ["Symfony", "MySQL", "Bootstrap"],
-    "title": "RéservaClasse",
-    "subtitle": "Gestion de créneaux horaires pour les écoles",
+    "date": "2025 - Développement en cours",
+    "tag": ["Symfony", "MySQL", "TailwindCSS"],
+    "title": "RéservaClasse 2.0",
+    "subtitle": "Gestion d'inscription à des évènements scolaires.",
     "cover": "/assets/images/projects/thumbnail-reservaclasse-mini.webp",
     "link": "",
     "link-github": "https://github.com/Alex-Web-Github/ReservaClasse",
-    "description": "Application web pour la gestion de créneaux horaires pour les écoles. Réalisé avec Symfony 7.1, Bootstrap 5, Twig, Doctrine, MySQL. L'application permettra à un enseignant de créer des créneaux horaires (durée, intervalles) pour des RdV parents-enseignant. Puis chaque parent pourra réserver un créneau (parmi ceux restants) pour rencontrer l'enseignant de son enfant. L'enseignant pourra voir les RdV réservés et les annuler si besoin.",
+    "description": "Application web développée avec Symfony 7.3 pour la gestion d'inscriptions lors d'évènements scolaires rattachés à une classe. Cette version 2.0 apporte une refonte complète avec une meilleure gestion des utilisateurs, des évènements (Dashboard enseignant). Elle permet de créer des évènements sur plusieurs journées avec pour chacune heure de début et de fin. Chaque parent pourra ensuite réserver un créneau (parmi ceux restants) pour participer. L'enseignant pourra voir/modifier les créneaux et gérer sa liste d'élèves.",
     "type": "personnal"
   },
   {
@@ -154,7 +154,7 @@
     "type": "student"
   },
   {
-    "date": "Refonte en 2020",
+    "date": "Refonte en 2025",
     "tag": ["WordPress"],
     "title": "SportsNatureÉvasion",
     "subtitle": "Mon activité de Guide / Éducateur sportif",
@@ -162,6 +162,17 @@
     "link": "https://www.sportsnatureevasion.com",
     "link-github": "",
     "description": "Site web réalisé avec le thème GeneratePress de WordPress. Design personnalisé avec Gutenberg et du CSS custom. Le site est administré par moi-même. Il présente mes différentes activités de guide / éducateur sportif. Il est en constante évolution, avec l'ajout de nouvelles fonctionnalités et l'amélioration de l'ergonomie.",
+    "type": "personnal"
+  },
+  {
+    "date": "2025",
+    "tag": ["HTML/CSS", "SASS", "Bootstrap"],
+    "title": "Jura Canyon",
+    "subtitle": "Moniteur de Canyoning dans le Jura",
+    "cover": "/assets/images/projects/thumbnail-juracanyon.webp",
+    "link": "https://canyoning-dans-le-jura.fr",
+    "link-github": "",
+    "description": "Site web réalisé avec HTML5, CSS3, SASS, Bootstrap 5 et un peu de JavaScript. Le site est administré par moi-même. Il présente mon activité de moniteur de canyoning dans le Jura. Un site statique avec formulaire de contact simple qui pourrait être amené à évoluer avec l'ajout de réservation en ligne, etc.).",
     "type": "personnal"
   }
 ]
